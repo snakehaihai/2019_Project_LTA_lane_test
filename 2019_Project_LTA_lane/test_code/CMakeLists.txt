@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( detect_lane )
+find_package( OpenCV REQUIRED )
+add_executable( detect_lane detect_lane.cpp )
+target_link_libraries( detect_lane ${OpenCV_LIBS} )

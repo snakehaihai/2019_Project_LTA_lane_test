@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/av/Desktop/LTA_lane/test_code/detect_lane.cpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+opencv2/imgproc.hpp
+/home/av/Desktop/LTA_lane/test_code/opencv2/imgproc.hpp
+opencv2/imgcodecs.hpp
+/home/av/Desktop/LTA_lane/test_code/opencv2/imgcodecs.hpp
+opencv2/highgui.hpp
+/home/av/Desktop/LTA_lane/test_code/opencv2/highgui.hpp
+
